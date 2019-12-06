@@ -1,0 +1,58 @@
+body {
+  background:white;
+  color:black;
+  height:100%;
+  width: 100%;
+  text-align:center;
+  font-size:18px;
+}
+
+.wrapper {
+  height: 500px;
+  width: 500px;
+  border: solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.board {
+  display: flex;
+  flex-direction: row:
+}
+
+.letterh {
+  height: 50px;
+  width: 50px;
+  border: solid black;
+}
+
+.lettere {
+  height: 50px;
+  width: 50px;
+  border: solid black;
+}
+
+.letterl {
+  height: 50px;
+  width: 50px;
+  border: solid black;
+}
+
+.secondletterl {
+  height: 50px;
+  width: 50px;
+  border: solid black;
+}
+
+.lettero {
+  height: 50px;
+  width: 50px;
+  border: solid black;
+}
+
+.button {
+  height: 50px;
+  width: 50px;
+  border: solid black;
+}
+
