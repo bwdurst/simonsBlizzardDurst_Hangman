@@ -1,7 +1,7 @@
 const getRampNum = () => {
-  var num = Number(document.getElementById('input').value);
   //initializing the required variables outside of the loops to maintian proper scope
-  // numToCheck is the number we are verifying is a ramp number
+  // num is the number we are verifying is a ramp number. It is taken from the HTML input
+  var num = Number(document.getElementById('input').value);
   // numToCompare is an array created from numToCheck so we can iterate through it with a loop
   let numToCompare = [];
   // As we loop through numToCompare, we push the values to finalNum which we will check against numToCheck, the number we are confirming is a ramp number, once the loop is finished
