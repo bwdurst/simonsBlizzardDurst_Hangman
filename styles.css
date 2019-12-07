@@ -2,18 +2,31 @@
 body {
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #wrapper {
-  width: 50%;
+  height:50%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: lightgreen;
 }
 
-#inputbutton {
+#submitbutton {
   height: 30px;
   width: 75px;
 }
 
 #output {
-  height: 50px;
-  border: 5px solid black;
+  height: 25px;
+  width: 200px;
+  border: 2px solid black;
+  border-style: dotted;
+  background: white;
 }
